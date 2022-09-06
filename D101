@@ -1,0 +1,6 @@
+n = input() #Input the number
+ff = n[0] #Check the first digit
+if ff == '2'or ff == '3':
+    print('Fixed') #Print if the first digit is match.
+elif ff == '9'or ff == '5'or ff == '6':
+    print('Mobile') #Print if the first digit is match.
